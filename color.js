@@ -19,3 +19,8 @@ const yellow=document.getElementById("yellowcolor")
 yellow.onclick=function(){
      btn1.style.backgroundColor="yellow";
 }
+const chenge=document.getElementById("chencgecontent")
+chenge.onclick=function(){
+	content1.innerHTML="Thank You So Much :)"
+    btn1.style.backgroundColor="Hello World";
+}
